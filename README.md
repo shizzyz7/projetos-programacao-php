@@ -1,8 +1,4 @@
-Projeto de Login envolvendo PHP - Programação para Internet
-
-Aluno: Mateus da Silva Marinho   Turma: INFO 4M
-
-Professor: Thiago Theiry   Data: 14/08/2026 
+Projeto de Login envolvendo PHP - Programação para Internet / Aluno: Mateus da Silva Marinho   Turma: INFO 4M / Professor: Thiago Theiry   Data: 14/08/2026 
 
 1. conexao.php
    
