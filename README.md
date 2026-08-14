@@ -17,6 +17,7 @@ Projeto de Login envolvendo PHP - Programação para Internet / Aluno: Mateus da
    O painel.php é a página acessada depois que o usuário faz login. Ele inclui o protect.php, então a proteção é verificada antes de mostrar o conteúdo. A parte importante é o uso de $_SESSION['nome'], que permite mostrar o nome do usuário que fez login. Por exemplo, o sistema consegue mostrar "Bem-vindo ao painel, Mateus" usando o nome que foi armazenado na sessão.
    
 5. logout.php
+   
    O logout.php é responsável por encerrar a conta do usuário. A parte mais importante é o session_destroy(), que destrói a sessão atual. Isso faz com que o sistema deixe de considerar aquele usuário como conectado. Depois disso, o usuário é direcionado novamente para o index.php. Eu entendi que o logout não é apenas voltar para a página de login, mas realmente encerrar a sessão que estava mantendo o usuário conectado.
 
    No geral, eu entendi que os arquivos funcionam juntos para formar o sistema de login. O banco e a tabela armazenam os usuários, o conexao.php faz a ligação com o banco, o index.php verifica o login, o protect.php controla o acesso, o painel.php mostra a área do usuário e o logout.php encerra a sessão. O projeto me ajudou a entender melhor como o PHP, banco de dados e sessões trabalham juntos em um sistema.
