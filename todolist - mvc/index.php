@@ -11,10 +11,14 @@ switch ($action) {
         $controller->criar();
         break;
     
-    case 'excluir' :
+    case 'excluir':
         $controller->excluir();
         break;
 
+    case 'editar':
+        $controller->editar();
+        break;
+        
     default :
         $controller->index();
 }
